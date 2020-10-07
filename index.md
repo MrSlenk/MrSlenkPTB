@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Mr. Slenk
 
-You can use the [editor on GitHub](https://github.com/SlenkyDev/MrSlenk/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Mr. Slenk je discord.js bot čo má rôzne zábavné príkazy.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Môj bot sa špecifikuje hlavne na rôzne unikátne príkazy ako napríklad príkaz ;duklock ktorý ukáže náhodný post z r/Duklock subRedditu. 
 
-### Markdown
+### Prečo vybráť nášho bota?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Náš bot je 100% Open Source a to znamená že pracujeme ako komunita pre to aby sme Vám vytvorili čo najlepší experience možný.
 
-```markdown
-Syntax highlighted code block
+## [> Invite (Admin)](https://discord.com/oauth2/authorize?client_id=756499833577013288&scope=bot&permissions=8)
+## [> Invite](https://discord.com/oauth2/authorize?client_id=756499833577013288&scope=bot&permissions=268954833)
+### [> List Príkazov](http://memesare.fun/prikazy)
 
-# Header 1
-## Header 2
-### Header 3
+### Autor
 
-- Bulleted
-- List
+Bota vytvoril začiatkom Októbra a koncom Septembra **Slenky#0001**. Môžete ho kontaktovať na rôznych sociálnych sieťach ale hlavne v oficiálnom  [Mr. Slenk Discorde](https://discord.gg/BtA2uKh) kde je často aktívny a robí rôzne ankety o to čo by ste chceli pridať do bota a podobne.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### Bočné Projekty
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SlenkyDev/MrSlenk/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Mimo bota Mr. Slenk autor ešte vlastní Minecraft hosting zadarmo; ktorého Discord [viete nájsť tu](https://discord.gg/bvKBHGf) a web [tu](http://slenk.host).

@@ -2,29 +2,31 @@
 
 ### 🤪 Zábavné: 
 
- Navod - Pošle návod
+ Navod - Pošle návod 🗂️
  
- Ping - Pong!
+ Ping - Pong! 🏓
  
  Zamavaj - Pekne ti zamáva 👋 
  
  Dance - Pošle gif tancovania 🕺 (Nie, neviem akú má pointu tento príkaz.)
  
- Cislo - Pošle náhodné číslo
+ Cislo - Pošle náhodné číslo 🔢
  
  Keksik - Pošle ti keksík 🍪
 
 ### 🖼️ Obrázkové:
 
- Meme - Pošle meme
+ Meme - Pošle meme 🤹
  
- Pes - Pošle havka
+ Pes - Pošle havka 🐕
  
- Macka - Pošle mačku
+ Macka - Pošle mačku 🐈
   
- Liska - Pošle líšku 
+ Liska - Pošle líšku 🦊
  
- Duklock - Pošle náhodný obrázok z Redditu YouTubera [r/duklock](https://reddit.com/r/duklock)
+ Kacka - Pošle kačku 🦆
+ 
+ Duklock - Pošle náhodný obrázok z Redditu YouTubera [r/duklock](https://reddit.com/r/duklock) 🦆🔒
 
 ### ⚙️ Všeobecné:
 

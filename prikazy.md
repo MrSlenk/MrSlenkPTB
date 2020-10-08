@@ -12,7 +12,6 @@
  
  Cislo - Pošle náhodné číslo 🔢
  
- Keksik - Pošle ti keksík 🍪
 
 ### 🖼️ Obrázkové:
 
@@ -31,6 +30,8 @@
  Fretka - Pošle Fretku ლ( ・ヮ・ლ)
  
  Duklock - Pošle náhodný obrázok z Redditu YouTubera [r/duklock](https://reddit.com/r/duklock) 🦆🔒
+ 
+ Keksik - Pošle ti keksík 🍪
 
 ### ⚙️ Všeobecné:
 

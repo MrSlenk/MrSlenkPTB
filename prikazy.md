@@ -18,6 +18,8 @@
 
  Meme - Pošle meme 🤹
  
+ Starterpack - Pošle Starter Pack 🧳
+ 
  Pes - Pošle havka 🐕
  
  Macka - Pošle mačku 🐈
@@ -25,6 +27,8 @@
  Liska - Pošle líšku 🦊
  
  Kacka - Pošle kačku 🦆
+ 
+ Fretka - Pošle Fretku ლ( ・ヮ・ლ)
  
  Duklock - Pošle náhodný obrázok z Redditu YouTubera [r/duklock](https://reddit.com/r/duklock) 🦆🔒
 

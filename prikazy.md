@@ -37,6 +37,12 @@
 
 Invite - Pošle [invite](https://discord.com/oauth2/authorize?client_id=756499833577013288&scope=bot&permissions=8)
 
+### 🍆🍑 NSFW:
+
+Porn - Pošle ti 4k Porno... Čo viac dodať?
+Hentai - Pošle ti Anime Porno... Čo viac dodať?
+Holo - Pošle ti Cute Anime Girls (Neviem čo je na tom porno ale ok)
+
 ### 🔨 Moderačné: 
 
 Už čoskoro...

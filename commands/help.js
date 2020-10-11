@@ -8,8 +8,8 @@ module.exports = {
         .setTitle('List príkazov bota Mr. Slenk')
         .setColor ('ORANGE')
         .setAuthor('Bota vytvoril Slenky#0001')
-        .setURL('https://discord.com/oauth2/authorize?client_id=756499833577013288&scope=bot&permissions=8')
-        .addField('List príkazov:', "invite, navod, ping, zamavaj, meme, pes, macka, liska, dance, duklock, cislo, keksik")
+        .setURL('http://memesare.fun')
+        .addField('List príkazov:', "Všetky príkazy nájdeš na webe memesare.fun/prikazy")
         .setFooter('Prefix pre všetky príkazy je ";"')
         message.channel.send(embed)
     },

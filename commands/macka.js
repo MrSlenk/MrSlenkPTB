@@ -13,7 +13,7 @@ module.exports = {
 			.setImage(json.url)
 			.setTitle('Mňau! :3')
 			.setFooter('API vytvoril 𝙃𝙮𝙧𝙤#8938 | Bota vytvoril Slenky#0001')
-			.setURL('https://youtube.com/Slenkye')
+			.setURL('http://memesare.fun')
 		message.channel.send(embed)
     },
 };

@@ -23,13 +23,10 @@ client.on("ready", () => {
 
 client.on("guildMemberAdd", member => {
 	var embed = new Discord.MessageEmbed()
-	.setTitle('Vitaj na Serveri', guild.name)
-	.addField('Ahoj! Vitaj na serveri', guild.name)
-	.addField('Tento server využíva bota Mr. Slenk; skvelého memes a fun bota!')
-	.addField('Pridaj bota Mr. Slenk kliknutím na [tento odkaz!](https://memesare.fun)')
-	.setURL('https://memesare.fun')
+	.setTitle('Vitaj!')
+	.setDescription('Tento server využíva bota Mr. Slenk, skvelého bota plného zábavných príkazov! Ak sa chceš dozvedieť viac, klikni na [tento link](https://memesare.fun)')
 	.setColor('GREEN')
-	.setFooter('Bota vytvoril a spravuje Slenky. Viac info na [slenky.dev](https://slenky.dev)')
+	.setFooter('discord.gg/fRGSmns')
 	member.send(embed)
 })
 

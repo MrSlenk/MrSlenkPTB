@@ -11,13 +11,27 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 }
 
+//const Constants = require('discord.js/src/util/Constants.js')
+//Constants.DefaultOptions.ws.properties.$browser = `Discord iOS`
+
 const Constants = require('discord.js/src/util/Constants.js')
 Constants.DefaultOptions.ws.properties.$browser = `Discord iOS`
-
 client.on("ready", () => {
   console.log("Loading status..")
   client.user.setActivity(`memesare.fun | ;help`, { type: 3, browser: "DISCORD IOS"  });
 });
+
+client.on("guildMemberAdd", member => {
+	var embed = new Discord.MessageEmbed()
+	.setTitle('Vitaj na Serveri', guild.name)
+	.addField('Ahoj! Vitaj na serveri', guild.name)
+	.addField('Tento server využíva bota Mr. Slenk; skvelého memes a fun bota!')
+	.addField('Pridaj bota Mr. Slenk kliknutím na [tento odkaz!](https://memesare.fun)')
+	.setURL('https://memesare.fun')
+	.setColor('GREEN')
+	.setFooter('Bota vytvoril a spravuje Slenky. Viac info na [slenky.dev](https://slenky.dev)')
+	member.send(embed)
+})
 
 client.on('message', async(message) => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
@@ -56,8 +70,8 @@ client.on('message', async(message) => {
 
 	try {
 		command.execute(message, args);
-	}catch (e){
-		console.log(e);
+	}catch{
+		console.log('error');
 	}
 });
 

@@ -21,17 +21,16 @@ client.on("ready", () => {
   client.user.setActivity(`memesare.fun | ;help`, { type: 3, browser: "DISCORD IOS"  });
 });
 
-client.on("guildMemberAdd", member => {
-    try {
-    var embed = new Discord.MessageEmbed()
-    .setTitle('Vitaj!')
-    .setDescription('Tento server využíva bota Mr. Slenk, skvelého bota plného zábavných príkazov! Ak sa chceš dozvedieť viac, klikni na [tento link](https://memesare.fun)')
-    .setColor('GREEN')
-    .setFooter('discord.gg/fRGSmns')
-    member.send(embed)
-  }catch(e){
-    console.log(e)
-  }
+client.on('guildMemberAdd', member => {
+    if (!member.guild) return;
+    let guild = member.guild;
+    
+    let embed = new Discord.MessageEmbed() 
+      .setColor("GREEN") 
+      .setTitle("Vitaj!")
+	  .setDescription(`Vitaj, ${member.user.tag} v **${guild.name}!** Tento server využíva bota Mr. Slenk, skvelého bota plného zábavných príkazov! Ak sa chceš dozvedieť viac, klikni [sem](https://memesare.fun)`)
+	  .setFooter(`discord.gg/fRGSmns`)
+    member.send(embed);
 })
 
 client.on('message', async(message) => {

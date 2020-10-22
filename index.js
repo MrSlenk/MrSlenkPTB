@@ -22,12 +22,16 @@ client.on("ready", () => {
 });
 
 client.on("guildMemberAdd", member => {
-	var embed = new Discord.MessageEmbed()
-	.setTitle('Vitaj!')
-	.setDescription('Tento server využíva bota Mr. Slenk, skvelého bota plného zábavných príkazov! Ak sa chceš dozvedieť viac, klikni na [tento link](https://memesare.fun)')
-	.setColor('GREEN')
-	.setFooter('discord.gg/fRGSmns')
-	member.send(embed)
+    try {
+    var embed = new Discord.MessageEmbed()
+    .setTitle('Vitaj!')
+    .setDescription('Tento server využíva bota Mr. Slenk, skvelého bota plného zábavných príkazov! Ak sa chceš dozvedieť viac, klikni na [tento link](https://memesare.fun)')
+    .setColor('GREEN')
+    .setFooter('discord.gg/fRGSmns')
+    member.send(embed)
+  }catch(e){
+    console.log(e)
+  }
 })
 
 client.on('message', async(message) => {
